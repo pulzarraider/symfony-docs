@@ -51,7 +51,9 @@ example containing most features described below:
          * @param string $dummy Some argument description
          * @param array  $options
          *
-         * @return string|null Transformed input
+         * @return string|null Transformed 
+         *
+         * @throws \RuntimeException
          */
         private function transformText($dummy, array $options = array())
         {
